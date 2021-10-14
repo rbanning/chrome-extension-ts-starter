@@ -1,0 +1,29 @@
+@import "./variables";
+
+@mixin body-setup ($size: $font-size-default) {
+  font-family: $font-family-default;
+  font-size: $size;
+  color: $color-foreground;
+  background-color: $color-background;
+}
+
+@mixin button-setup ($size: $font-size-default /* 1.2rem for larger */) {
+  font-size: $size; 
+
+  color: $color-button-text;
+  background-color: $color-button-background;
+  
+  border: solid 1px $color-button-border;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 1px 1px 3px $color-button-border;
+
+  padding: 0.2em 0.4em;
+
+  transition: all 0.3s linear;
+
+  &:hover {
+    border-color: $color-button-border-hover;
+    box-shadow: 1px 1px 6px $color-button-border;
+  }
+}

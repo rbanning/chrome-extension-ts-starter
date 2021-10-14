@@ -1,0 +1,23 @@
+@import "../shared/variables";
+@import "../shared/mixins";
+
+body {
+  @include body-setup;
+}
+
+button {
+  @include button-setup;
+  min-width: 50px;
+  max-width: 100px;
+  height: 30px;
+  margin: 0.3em;
+
+  border-width: 2px;
+}
+
+img {
+  display: inline-block;
+  margin-right: 1em;
+  padding: 0.2em;
+  border: solid 1px $color-border;
+}

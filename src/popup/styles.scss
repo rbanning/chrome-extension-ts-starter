@@ -1,0 +1,10 @@
+@import "../shared/variables";
+@import "../shared/mixins";
+
+body {
+  @include body-setup;
+}
+
+button {
+  @include button-setup;
+}

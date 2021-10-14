@@ -1,0 +1,17 @@
+
+// --- COLORS ---
+$color-foreground: rgb(40, 40, 40);
+$color-background: rgb(217, 233, 247);
+
+$color-border: rgba(67, 83, 102, 0.9);
+
+$color-button-text: $color-foreground;
+$color-button-background: lighten($color-background, 10%);
+$color-button-border: darken($color-background, 20%);
+$color-button-border-hover: darken($color-background, 60%);
+
+// --- FONTS ---
+$font-family-default: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-size-default: 14px;
+
+$color: #d44040;
